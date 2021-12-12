@@ -1,0 +1,340 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.header{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.container{
+	width: 1000px;
+	margin: auto;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right:20px;
+
+	
+
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+
+}
+.menu{
+	display: flex;
+}
+.items{
+	margin-top: 8px;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.btn{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 14px;
+	padding-left: 14px;
+	background: #ff6161;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	font-size: 13px;
+	font-weight: 700;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.banner{
+	width: 100%;
+	/*	text-align: center;*/
+
+}
+
+
+.banner-section{
+	width: 100%;
+
+}
+.container{
+	width: 1000px;
+	margin: auto;
+
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+	 align-items: center;
+	 padding-top: 90px;
+	 padding-bottom: 90px;
+
+ 
+
+
+}
+.banner-left{
+	padding-left: 10px;
+
+}
+
+.banner-left h1{
+	font-size: 40px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+    padding-top:20px;
+}
+
+.banner-left p{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color: #cdcbc6;
+	padding-top:30px;
+}
+
+.banner-left img{
+	padding-top:10px;
+}
+
+
+
+.banner-right img{
+	width: 100%;
+}
+
+
+/*text section*/
+
+
+.text-scetion{
+	width: 100%;
+
+}
+.text{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+.text h3{
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	padding-bottom: 10px;
+
+
+
+}
+
+
+.text p{
+	font-size: 10px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color: #cdcbc6;
+	font-style: italic;
+}
+
+
+/*image section
+*/
+
+.image-section{
+	width: 100%;
+
+}
+.images{
+	padding-left: 30px;
+	padding-bottom: 70px;
+}
+.text-2ndsection{
+	width: 100%;
+
+}
+.text2{
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+
+}
+.text2 h3{
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+.text2 p{
+	font-size: 10px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	color: #cdcbc6;
+	font-style: italic;
+	padding-top:5px;
+}
+
+
+.text-box{
+	width: 100%;
+}
+.textcontent{
+	display: flex;
+	text-align: center;
+
+}
+
+.first-text{
+	background: #f6f6f6;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	
+}
+
+.second-text{
+	background: #f6f6f6;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+
+}
+.third-text{
+	background: #f6f6f6;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+
+}
+.first-text{
+	flex-basis: 33.33%
+}
+.second-text{
+	flex-basis: 33.33%
+}
+.third-text{
+	flex-basis: 33.33%
+}
+.first-text p{
+
+    font-size: 15px;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+	color: #959799;
+
+}
+
+.second-text p{
+
+    font-size: 15px;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+	color: #959799;
+
+}
+.third-text p{
+
+    font-size: 15px;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+	color: #959799;
+
+}
+
+.footer{
+	width: 100%;
+	background: #1f1c35
+}
+
+.footer-content{
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 70px;
+
+}
+
+.footer-content h3{
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: 750;
+
+
+}
+
+
+.footer-content h3{
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: 750;
+
+
+}
+.bb{
+	margin-top: 20px;
+	cursor: pointer;
+}
+.footer-image{
+	padding-top: 20px;
+
+}
+
+
+
+/*
+footer2*/
+
+
+.imgfooter{
+	width: 100%;
+		background: #1f1c35
+
+
+
+}
+
+.footer-container{
+	width: 100%;
+}
+
+
+
+
+.fimage{
+	display: flex;
+	
+}
+.img-left{
+	flex-basis: 50%;
+}
+.img-right{
+	flex-basis: 50%;
+}
+
+.img-right{
+	padding-left: 1260px;
+}
